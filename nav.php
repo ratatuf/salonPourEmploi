@@ -1,6 +1,6 @@
 <div id="nav">
-  <a href="/salonPourEmploi/atelierDev/index.php" class="menuLogo">
-    <img src="/salonPourEmploi/atelierDev/images/logo.png" alt="Logo de la MOS" />
+  <a href="/salonPourEmploi/index.php" class="menuLogo">
+    <img src="/salonPourEmploi/images/logo.png" alt="Logo de la MOS" />
   </a>
   <ul>
     <li>
@@ -13,7 +13,7 @@
       </a>
     </li>
     <li>
-      <a href="/salonPourEmploi/atelierDev/MOFT/index.php">
+      <a href="/salonPourEmploi/MOFT/index.php">
         <div class="menuIcon MOFT"></div>
         <div class="menuItem">
           <span class="mainItem">MOFT</span>
@@ -22,7 +22,7 @@
       </a>
     </li>
     <li>
-      <a href="/salonPourEmploi/atelierDev/MOMN/index.php">
+      <a href="/salonPourEmploi/MOMN/index.php">
         <div class="menuIcon MOMN"></div>
         <div class="menuItem">
           <span class="mainItem">MOMN</span>
