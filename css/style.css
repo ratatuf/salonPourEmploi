@@ -1,0 +1,116 @@
+/*
+--------------------------------------------------------------------------------
+GENERAL
+--------------------------------------------------------------------------------
+*/
+@font-face { font-family: 'Bangers', cursive; src: url('https://fonts.googleapis.com/css?family=Bangers'); }
+@font-face { font-family: 'Roboto', sans-serif; src: url('https://fonts.googleapis.com/css?family=Roboto:300,400'); }
+body { margin: 0; padding: 0;background-color: #006E78; font-family: 'Bangers', cursive; font-weight: 400; }
+h1 { margin: 0; padding: 10% 5% 0 5%; color: #E8990C; font-size: 6em; font-weight: 400; text-align: center; text-shadow: 2px 2px 2px #212121; }
+h2 { margin: 0; padding: 2% 0; color: #F1F1F1; font-family: 'Roboto', sans-serif; font-size: 2.5em; font-weight: 300; text-align: center; text-shadow: 2px 2px 2px #212121;}
+h3 { margin: 0; padding: 2% 0 4% 0; color: #FFFFFF; font-size: 2.5em; font-weight: 400; text-align: center; }
+h4 { margin: 0; padding: 2% 2% 4% 2%; color: #E8990C; font-size: 4.5em; font-weight: 400; text-align: center; }
+h5 { margin: 0; padding: 0 0 4% 0; color: #212121; font-size: 2.4em; font-weight: 400; text-align: center; }
+p { font-family: 'Roboto', sans-serif; }
+p.warning { margin: 0; padding: 0 0 2% 0; display: block; color: #b71c1c; font-size: 1em; font-weight: bold; text-align: center; }
+a.button { margin: 0 auto; padding: 8px 0; display: block; background-color: #c62828; color: #FFFFFF;font-family: 'Roboto', sans-serif; font-size: 1.2em; text-decoration: none; text-align: center; border: 0; border-radius: 3px; transition: background-color 0.25s; }
+a.button:hover { background-color: #d32f2f; }
+input { width: 80%; height: 34px; margin: 0 auto;  display: block; background-color: rgba(255, 255, 255, 0.2); color: #FFFFFF; font-size: 1.2em; font-weight: 300; text-align: center; border: 1px solid rgba(255, 255, 255, 0.4); border-radius: 3px; transition-duration: 0.25s; }
+input:hover { background-color: rgba(255, 255, 255, 0.4); }
+input:focus{ width: 90%; background-color: #FFFFFF; color: #006E78; }
+::-webkit-input-placeholder { color: white; } /* Chrome/Opera/Safari */
+::-moz-placeholder { color: white; } /* Firefox 19+ */
+:-ms-input-placeholder { color: white; } /* IE 10+ */
+:-moz-placeholder { color: white; } /* Firefox 18- */
+button { width: 80%; height: 40px; margin: 0 auto; display: block; background-color: #E8990C; color: #FFFFFF; font-size: 1.2em; border: 0; border-radius: 3px; cursor: pointer; transition: background-color 0.25s; }
+button:hover { background-color: #e7a837; }
+/*
+--------------------------------------------------------------------------------
+BARRE DE NAVIGATION
+--------------------------------------------------------------------------------
+*/
+#nav { width: 17%; /*min-height: 100vh;*/ margin: 0; padding: 0; float: left; background-color: #006E78; }
+#nav a.menuLogo { margin: 40% auto; width: 130px; height: 110px; display: block; opacity: 0.25; transition: opacity 0.5s;}
+#nav a.menuLogo:hover { opacity: 1; }
+#nav ul { margin: 0; padding: 0; width: 100%; }
+#nav ul li { margin: auto; list-style: none; }
+#nav ul li a { margin: 0; padding: 0; height: 72px; text-decoration: none; display: block; box-shadow: 0 0 0 #333; transition: padding 0.3s, background-color 0.5s, box-shadow 0.5s; }
+#nav ul li a:hover { color: #f1f1f1; padding-left: 8px; background-color: #E8990C; box-shadow: 0px 6px 15px #333; }
+#nav ul li a .menuIcon { width: 62px; height: 72px; display: inline-block; vertical-align: middle; }
+#nav ul li a .MOW { background: url("../images/icon_MOW.png") center no-repeat; }
+#nav ul li a .MOFT { background: url("../images/icon_MOFT.png") center no-repeat; }
+#nav ul li a .MOMN { background: url("../images/icon_MOMN.png") center no-repeat; }
+#nav ul li a .menuItem { margin: 0; padding: 0; display: inline-Block; vertical-align: middle; }
+#nav ul li a .menuItem .mainItem { margin: 0; padding: 0; font-size: 1.5em; line-height: 30px; color: #F1F1F1; display: block; }
+#nav ul li a .menuItem .subItem { margin: 0; padding: 0; font-family: 'Roboto', sans-serif; font-size: 0.7em; color: #F1F1F1; display: block; }
+/*
+--------------------------------------------------------------------------------
+CONTENU DE LA PAGE
+--------------------------------------------------------------------------------
+*/
+#main { min-height: 100vh; margin: 0 0 0 17%; padding: 0; background: url("../images/hero_01.jpg") 0% 0% no-repeat; background-size: cover; }
+#main #card { width: 80%; margin: auto; padding: 2% 2%; background-color: rgba(255, 255, 255, 0.1); box-shadow: 0px 0px 15px #333; border: 0; border-radius: 3px; }
+/*
+--------------------------------------------------------------------------------
+PAGE INDEX
+--------------------------------------------------------------------------------
+*/
+#main h1.indexTitle { padding: 20% 5% 0 5%; font-size: 8em; }
+/*
+--------------------------------------------------------------------------------
+PAGE MANCHE OPEN WEATHER
+--------------------------------------------------------------------------------
+*/
+#main #card.MOW { width: 50%; }
+#main #card.MOW h3.result { padding: 2% 2% 4% 2%; color: #E8990C; font-size: 4.5em; }
+#main #card.MOW h4.result { padding: 0; color: #FFFFFF; font-size: 3em; }
+#main #card.MOW button { width: 40%; margin: 2% auto 0 auto; }
+#main #card.MOW a.button { width: 40%; }
+/*
+--------------------------------------------------------------------------------
+PAGE MANCHE OPEN FORTUNE TELLING
+--------------------------------------------------------------------------------
+*/
+#main #card.MOFT { width: 50%; }
+#main #card.MOFT h3 { font-size: 2.5em; }
+#main #card.MOFT button { width: 40%; }
+#main #card.MOFT a.button { width: 40%; }
+/*
+--------------------------------------------------------------------------------
+PAGE MANCHE OPEN MYSTERY NUMBER
+--------------------------------------------------------------------------------
+*/
+#main #card.MOMN { width: 30%; }
+#main #card.MOMNGame { width: 50%; }
+#main #card.MOMNGame h4 { padding: 6% 0 2% 0; color: #212121; font-size: 2.5em; }
+/*#main #card.MOMNGame input { width: 60%; }*/
+#main #card.MOMNGame button { width: 40%; }
+#main #card.MOMNGame a.button { width: 40%; }
+/*
+--------------------------------------------------------------------------------
+MODIFICATIONS POUR LE RESPONSIVE DESIGN
+--------------------------------------------------------------------------------
+*/
+@media screen and (max-width: 1350px) {
+  #main { margin: 0 0 0 62px; }
+  #nav { width: 62px; }
+  #nav a.menuLogo { width: 52px; height: 44px; margin: 135px auto }
+  #nav a.menuLogo img { width: 52px; height: 44px; }
+  #nav ul li a .menuItem { display: none; }
+}
+@media screen and (max-width: 900px) {
+  #main #card.MOW { width: 90%; }
+  #main #card.MOFT { width: 90%; }
+  #main #card.MOMN { width: 50%; }
+  #main #card.MOMNGame { width: 90%; }
+}
+@media screen and (max-width: 425px) {
+  #main #card.MOMN { width: 90%; }
+  h1, #main h1.indexTitle { font-size: 4em; }
+  h2 { font-size: 1.7em; }
+  h3, #main #card.MOFT h3, #main #card.MOW h3.result { font-size: 2em; }
+  h4, #main #card.MOMNGame h4, #main #card.MOW h4.result { font-size: 2em; }
+  h5 { font-size: 1.7em; }
+  button, #main #card.MOW button, #main #card.MOW a.button, #main #card.MOFT button, #main #card.MOFT a.button, #main #card.MOMNGame button, #main #card.MOMNGame a.button { width: 80%; font-size: 0.8em; }
+  input, p.warning { font-size: 0.8em; }
+}
