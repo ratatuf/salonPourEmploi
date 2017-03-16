@@ -4,7 +4,7 @@
   </a>
   <ul>
     <li>
-      <a href="/salonPourEmploi/atelierDev/MOW/index.php">
+      <a href="/salonPourEmploi/MOW/index.php">
         <div class="menuIcon MOW"></div>
         <div class="menuItem">
           <span class="mainItem">MOW</span>
