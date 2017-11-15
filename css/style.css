@@ -3,8 +3,6 @@
 GENERAL
 --------------------------------------------------------------------------------
 */
-@font-face { font-family: 'Bangers', cursive; src: url('https://fonts.googleapis.com/css?family=Bangers'); }
-@font-face { font-family: 'Roboto', sans-serif; src: url('https://fonts.googleapis.com/css?family=Roboto:300,400'); }
 body { margin: 0; padding: 0;background-color: #006E78; font-family: 'Bangers', cursive; font-weight: 400; }
 h1 { margin: 0; padding: 10% 5% 0 5%; color: #E8990C; font-size: 6em; font-weight: 400; text-align: center; text-shadow: 2px 2px 2px #212121; }
 h2 { margin: 0; padding: 2% 0; color: #F1F1F1; font-family: 'Roboto', sans-serif; font-size: 2.5em; font-weight: 300; text-align: center; text-shadow: 2px 2px 2px #212121;}
